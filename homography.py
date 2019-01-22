@@ -2,9 +2,6 @@ import cv2
 import random
 import numpy as np
 
-UBIT = 'poojaume'
-np.random.seed(sum([ord(c) for c in UBIT]))
-
 MIN_MATCH_COUNT = 10
 
 img1 = cv2.imread("data/mountain1.jpg", 0)
